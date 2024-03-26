@@ -58,6 +58,8 @@ public class eCommerce_tc_2 extends BaseTest {
 		AssertJUnit.assertTrue(driver.findElements(By.xpath("//android.widget.Toast)[1]")).size()<1);
 		
 		System.out.println("Testing GIT in Eclipse");
+
+
 	}
 	
 	
