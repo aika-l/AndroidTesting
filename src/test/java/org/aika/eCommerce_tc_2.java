@@ -56,6 +56,8 @@ public class eCommerce_tc_2 extends BaseTest {
 		driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
 		
 		AssertJUnit.assertTrue(driver.findElements(By.xpath("//android.widget.Toast)[1]")).size()<1);
+
+		System.out.println("Testing GIT - from IntelliJ");
 	}
 	
 	
